@@ -1,5 +1,5 @@
 module "dynamodb_table" {
-  source   = "./DynamoDB-Modules/"
+  source   = "./DynamoDB/"
 
  aws_dynamodb_table_name     = "demo-dynamodb-test"
  aws_dynamodb_table_hash_key = "PK"
